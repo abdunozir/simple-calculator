@@ -1,0 +1,51 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-con {
+  width: 50%;
+}
+
+input {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  background-color: black;
+}
+
+tr {
+  text-align: center;
+  font-size: 30px;
+}
+
+td {
+  padding: 10px;
+  border: 5px solid white;
+  background-color: grey;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: rgba(127, 255, 212, 0.253);
+}
+
+.deletall {
+  background: red;
+  color: white;
+}
+
+.deletall:hover {
+  background-color: rgba(127, 255, 212, 0.253);
+}
+/*# sourceMappingURL=main.css.map */
